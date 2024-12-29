@@ -1,3 +1,4 @@
+/* ESTILIZAÇÃO DA GLOBAL */
 *{
     margin: 0;
     padding: 0;
@@ -7,3 +8,40 @@
     font-family: "Open Sans", serif;
 }
 
+/* ESTILIZAÇÃO DA PAGE-HOME */
+.page-home{
+    margin: 88px 80px;
+    
+}
+
+section.title-page h1 {
+margin-top: 8px;
+margin-bottom: 40px;
+}
+
+/* ESTILIZAÇÃO DA SECTION DESCRIPTION */
+section.description p{
+    margin-top: 24px;
+}
+
+section.description hr{
+    margin-top: 44px;
+}
+/* ESTILIZAÇÃO DA SECTION CONTENT_LIST */
+section.content_list .title_list{
+    margin: 64px auto;
+}
+
+/* ESTILIZAÇÃO DA SECTION LIST */
+.card_traval + .card_traval:not(.card_traval:last-child){
+    margin: 48px auto;
+}
+
+.list hr{
+    margin: 20px 0 40px;
+}
+
+/* ESTILIZAÇÃO DA SECTION FOOTER */
+footer{
+    margin: 65px auto 48px;
+}
