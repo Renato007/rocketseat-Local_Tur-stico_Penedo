@@ -6,6 +6,9 @@
 
 :root{
     font-family: "Open Sans", serif;
+    color: #333333;
+    font-size: 16px;
+    text-align: justify;
 }
 
 /* ESTILIZAÇÃO DA PAGE-HOME */
@@ -19,27 +22,59 @@ margin-top: 8px;
 margin-bottom: 40px;
 }
 
+ header{
+    color: #E1624F;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
 /* ESTILIZAÇÃO DA SECTION DESCRIPTION */
-section.description p{
+
+section.description {
+    margin-top: 44px;
+}
+
+.description .text-descripton{
+    color:#333333;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 44px;
     margin-top: 24px;
 }
 
-section.description hr{
-    margin-top: 44px;
-}
+
 /* ESTILIZAÇÃO DA SECTION CONTENT_LIST */
 section.content_list .title_list{
     margin: 64px auto;
 }
+
+.title_list h2{
+    margin-bottom: 8px;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
 
 /* ESTILIZAÇÃO DA SECTION LIST */
 .card_traval + .card_traval:not(.card_traval:last-child){
     margin: 48px auto;
 }
 
-.list hr{
+hr{
     margin: 20px 0 40px;
 }
+
+.card_traval .content_card .pre-list{
+    font-weight: bolder;
+}
+
 
 /* ESTILIZAÇÃO DA SECTION FOOTER */
 footer{
