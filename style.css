@@ -35,6 +35,11 @@ h1{
     text-transform: capitalize;
 }
 
+.img-description, .card_traval img{
+        border-radius: 28px; 
+        width: 100%; 
+}
+
 
 /* ESTILIZAÇÃO DA SECTION DESCRIPTION */
 
@@ -71,6 +76,11 @@ section.content_list .title_list{
 hr{
     margin: 20px 0 40px;
 }
+
+.content_card h3{
+    margin-bottom: 4px;
+}
+
 
 .card_traval .content_card .pre-list{
     font-weight: bolder;
